@@ -1,0 +1,88 @@
+.header {
+  width: 100%;
+  height: 7.4vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0c0b0b;
+  border-bottom: 1px solid #333;
+  color: #eee;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.buttons {
+  display: flex;
+  margin-right: 5px;
+}
+button {
+  padding: 7px 14px;
+  border-radius: 2.5px;
+  background: #111111;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  border: none;
+}
+.button {
+  background: #12c2e9;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  padding: 1px;
+  border-radius: 2.5px;
+  margin-left: 5px;
+}
+.logo {
+  background: #12c2e9;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+.header-left .logo {
+  margin-right: 10px;
+}
+.header-left .MuiSvgIcon-root {
+  cursor: pointer;
+  color: #12c2e9;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover {
+  background: transparent;
+}
+.button .btn2 {
+  background: transparent;
+}
+.button .btn2:hover {
+  background: #111;
+}
+button:focus {
+  outline: none;
+}
+.header h2 {
+  margin-left: 10px;
+}
+.top-pane {
+  background-color: #000;
+}
+.pane {
+  height: 46.8vh;
+  display: flex;
+}
+.left-container {
+  display: flex;
+  width: 100vw;
+  height: 92.6vh;
+}
+
+.left-container .pane {
+  width: 40%;
+  height: 100%;
+}
+.left-container .top-pane {
+  width: 60%;
+}

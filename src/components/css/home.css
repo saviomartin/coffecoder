@@ -1,0 +1,192 @@
+.home {
+  background: #0c0b0b;
+  color: #eee;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+.svg {
+  fill: #fff;
+  color: #151513;
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+}
+.sidebar {
+  background: #1c1d21;
+  width: 24%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.top-sidebar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 0;
+  width: 100%;
+}
+.line {
+  height: 3px;
+  width: 85%;
+  background: #0c0b0b;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.line2 {
+  height: 3px;
+  width: 85%;
+  background: #0c0b0b;
+  border-radius: 15px;
+}
+.link {
+  padding: 5px;
+  transition: 0.5s;
+  margin: 2px;
+  border-radius: 5px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.link .MuiSvgIcon-root {
+  font-size: 18.5px;
+}
+.sidebar .logo {
+  margin-bottom: 15px;
+}
+.link:hover {
+  background: rgb(12, 11, 11, 0.6);
+}
+.btn-cont {
+  margin-top: 10px;
+  background: #12c2e9;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  padding: 12px 3px;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 5px;
+  background: #1c1d21;
+  transition: 0.5s;
+}
+.btn:hover {
+  background: transparent;
+}
+h5 {
+  font-weight: 300;
+  color: #bbb;
+  font-size: 15px;
+  margin-bottom: -5px;
+}
+h4 {
+  color: #888;
+  margin-left: 15px;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.left p {
+  color: #aaa;
+  margin: 10px 0;
+  font-size: 15px;
+}
+.left .btn-cont {
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.left .love {
+  background: #12c2e9;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  -webkit-background-clip: text;
+  display: flex;
+  align-items: center;
+  -webkit-text-fill-color: transparent;
+}
+.left .love .MuiSvgIcon-root {
+  color: #f64f59;
+  font-size: 18.5px;
+}
+.right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.grey {
+  height: 400px;
+  width: 365px;
+
+  background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
+  border-radius: 10px;
+  position: absolute;
+
+  border-radius: 5px;
+}
+.html {
+  height: 100px;
+  margin: -30px 80px 0 0;
+}
+.css {
+  height: 160px;
+  margin: 15px 0 15px 80px;
+}
+.js {
+  height: 165px;
+  margin: 10px 70px 0 0;
+}
+.right img {
+  z-index: 1;
+  border: 1px solid #777;
+  border-radius: 5px;
+}

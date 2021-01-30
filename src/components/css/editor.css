@@ -1,0 +1,68 @@
+.editor-container {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  padding: 0.5px;
+  transition: 0.5s;
+}
+
+.editor-container.collapsed {
+  flex-grow: 0;
+}
+
+.editor-container.collapsed .CodeMirror-scroll {
+  position: absolute;
+  overflow: hidden !important;
+}
+
+.expand-collapse-btn {
+  margin-left: 0.5rem;
+  background: none;
+  border: none;
+  margin-top: -10px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editor-title {
+  display: flex;
+  justify-content: space-between;
+  background-color: #111111;
+  border-bottom: 1px solid #333;
+  color: white;
+  padding: 10px 10px 0px 10px;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.CodeMirror {
+  height: 100% !important;
+  overflow: hidden;
+}
+
+.code-mirror-wrapper {
+  flex-grow: 1;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  overflow: hidden;
+}
+.code-mirror-wrapper * {
+  font-size: 14px;
+}
+.editor-container:hover {
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  border: 1px solid transparent;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.left-container .editor-container {
+  height: 95%;
+}
